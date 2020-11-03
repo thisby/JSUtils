@@ -152,7 +152,7 @@ function FindFirstLower(arr,item)
 }
 
 
-function sheetAsJson(url,columnName,callback){
+async function sheetAsJson(url,columnName,callback){
 	
 $.get(url)
 	.done((data) => {
